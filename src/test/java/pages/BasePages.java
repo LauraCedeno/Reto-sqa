@@ -12,7 +12,7 @@ public class BasePages {
     protected WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     static{
         WebDriverManager.chromedriver().setup();
-        driver = new chromedriver();
+        driver = new ChromeDriver();
     }
 
     public BasePages(WebDriver driver){
